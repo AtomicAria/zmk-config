@@ -26,6 +26,8 @@ manifest:
       url-base: https://github.com/urob
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: ssbb
+      url-base: https://github.com/ssbb
 
   projects:
     - name: zmk
@@ -45,6 +47,10 @@ manifest:
       path: modules/zmk/tri-state
     - name: zmk-unicode
       path: modules/zmk/unicode
+
+    - name: zmk-antecedent-morph
+      remote: ssbb
+      revision: v1
 
     # Only source necessary Zephyr modules. Remove this entire section to restore
     # the default (needed for less common hardware).
