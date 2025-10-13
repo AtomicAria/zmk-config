@@ -12,7 +12,7 @@
   #define _BT_SEL_KEYS_ &trans &trans &trans &trans &trans
 #endif
 
-#include "altrepeat.dtsi"
+\\ #include "altrepeat.dtsi"
 
 #define DEF 0
 #define NAV 1
@@ -115,7 +115,7 @@ ZMK_ADAPTIVE_KEY(
     shift_repeat, bindings = <&sk LSHFT>;
     repeat {
       trigger-keys = <A B C D E F G H I J K L M N O P Q R S T U V W X Y Z>;
-      bindings = <&ad_rep_key>;
+      bindings = <&key_repeat>;
       max-prior-idle-ms = <1200>;
       strict-modifiers;
     };)
@@ -201,7 +201,7 @@ ZMK_CONDITIONAL_LAYER(sys, FN NUM, SYS) // FN + NUM --> SYS.
 
 ZMK_BASE_LAYER(Base,
 //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &kp V         &kp M         &kp L         &kp C         &kp P       ,   &kp B         &ad_rep_magic &kp U         &kp O         &kp Q       ,
+    &kp V         &kp M         &kp L         &kp C         &kp P       ,   &kp B         &none         &kp U         &kp O         &kp Q       ,
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &hml LGUI S   &hml LALT T   &hml LSHFT R  &hml LCTRL D  &kp Y       ,   &kp F         &hmr LCTRL N  &hmr RSHFT E  &hmr LALT A   &hmr LGUI I ,
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
