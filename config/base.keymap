@@ -12,7 +12,7 @@
   #define _BT_SEL_KEYS_ &trans &trans &trans &trans &trans
 #endif
 
-\\ #include "altrepeat.dtsi"
+// #include "altrepeat.dtsi"
 
 #define DEF 0
 #define NAV 1
