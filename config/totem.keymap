@@ -2,8 +2,8 @@
 #define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH1, LH2, RH2, RH1)
     ZMK_LAYER(                                                                 \
         name,                                                                  \
-        LT RT,                                                                 \
-        LM RM,                                                                 \
+        LT RT                                                                  \
+        LM RM                                                                  \
         &kp ESC LB RB &kp SQT                                                  \
         &none LH1 LH2 RH2 RH1 &none
     )
