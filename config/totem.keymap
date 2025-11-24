@@ -5,7 +5,7 @@
         LT RT                                                                  \
         LM RM                                                                  \
         &kp ESC LB RB &kp SQT                                                  \
-        &none LH1 LH2 RH2 RH1 &none
+        &none LH1 LH2 RH2 RH1 &none                                            \
     )
 
 #include "zmk-helpers/key-labels/totem.h"
