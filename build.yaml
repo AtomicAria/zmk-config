@@ -15,3 +15,9 @@
 include:
   - board: glove80_lh
   - board: glove80_rh
+
+include:
+  - board: seeeduino_xiao_ble
+    shield: totem_left
+  - board: seeeduino_xiao_ble
+    shield: totem_right
