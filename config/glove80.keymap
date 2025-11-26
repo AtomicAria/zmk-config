@@ -8,7 +8,7 @@
         &kp ESC              LM                                            RM           &kp SQT   \
         &none                LB LH2  &none  &none  &none  &none RH2    RB  &none     \
                                 &none  &none &none                                                \
-        &kp LEFT  &kp RIGHT  LH1 &none &none                  &none &none RH1    &kp UP &kp DOWN  \
+        &kp LEFT  &kp RIGHT  LH1 &kp LGUI &none            &none &kp BSPC RH1    &kp UP &kp DOWN  \
                                                      &none  &none &none)
 
 #include "zmk-helpers/key-labels/glove80.h"
